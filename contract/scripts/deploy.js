@@ -9,13 +9,13 @@ const hre = require("hardhat");
 async function main() {
   const currentTimestampInSeconds = Math.round(Date.now() / 1000);
 
-  const Egbon = await hre.ethers.getContractFactory("Padi");
+  const Egbon = await hre.ethers.getContractFactory("SureBlocks");
   const egbon = await Egbon.deploy();
 
   await egbon.deployed(); 
 
   console.log(
-    `Padi deployed to ${egbon.address}`
+    `BlockInsure deployed to ${egbon.address}`
   );
 }
 

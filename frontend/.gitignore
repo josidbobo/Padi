@@ -7,6 +7,7 @@
 .atom/
 .buildlog/
 .history
+.lib/providers/api.dart
 .svn/
 migrate_working_dir/
 

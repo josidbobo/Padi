@@ -80,7 +80,7 @@ class HomePageWidget extends StatelessWidget {
               width: 33,
             ),
             Text(
-              'Oniduro',
+              'Padi',
               style: Theme.of(context).textTheme.displayMedium!.copyWith(
                     fontWeight: FontWeight.bold,
                     color: Colors.black87,
@@ -154,7 +154,7 @@ class HomePageWidget extends StatelessWidget {
                                        children: [
                                         SizedBox(width: 50,),
                                          Text(
-                                            'We now store portfolio assets in Mento cUSD on Celo Protocol', style: TextStyle(color: Colors.white),),
+                                            'We now store portfolio assets in stable coins on Linea testnet', style: TextStyle(color: Colors.white),),
                                        ],
                                      ),
                                   ],
@@ -189,7 +189,7 @@ class HomePageWidget extends StatelessWidget {
                       
                       textAlign: TextAlign.justify,
                       TextSpan(
-                        text: 'Oniduro',
+                        text: 'Padi',
                         style: Theme.of(context)
                             .textTheme
                             .displayLarge!
@@ -201,7 +201,7 @@ class HomePageWidget extends StatelessWidget {
                               style: Theme.of(context).textTheme.displayMedium!.copyWith(color: Colors.white70, fontSize: 21)),
                           TextSpan(
                               text:
-                                  'the EVM compatible chain - Celo, the volatility of financial markets has made it of ',
+                                  'linea chain, the volatility of financial markets has made it of ',
                               style: Theme.of(context).textTheme.displayMedium!.copyWith(color: Colors.white70, fontSize: 21)),
                           TextSpan(
                               text:
@@ -223,7 +223,7 @@ class HomePageWidget extends StatelessWidget {
                   const SizedBox(
                     width: 550,
                     child: Text(
-                      "Live up your life, while knowing that your loved ones and you are protected by Oniduro with our policies ranging from Life, health, Property, Business and Automobile Insurance.",
+                      "Live up your life, while knowing that your loved ones and you are protected by Padi with our policies ranging from Life, health, Property, Business and Automobile Insurance.",
                       style: TextStyle(
                           color: Color.fromARGB(255, 133, 196, 228),
                           leadingDistribution: TextLeadingDistribution.even),
@@ -318,7 +318,7 @@ class HomePageWidget extends StatelessWidget {
                               child: ClipRRect(
                                 clipBehavior: Clip.hardEdge,
                                 child: Image.network(
-                                  "data:image/jpeg;base64,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EREBERAREQEREBERAREQEREBERAREQEREBERAREQERED/9k=",
+                                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZFzeozVjTSHuTQTtlCH-QoWMXrjr0KP0gqgm7eJOsUA&s",
                                   fit: BoxFit.fill,
                                 ),
                               )),
@@ -409,7 +409,7 @@ class HomePageWidget extends StatelessWidget {
                   .copyWith(fontSize: 23, color: Colors.blueGrey),
             ),
             const Text(
-              'Hello there, we are the best Decentralised Hedgings Protocol on Celo, a fast and green positive Ethereum compatible chain below are the considerations why we are better than our competitors.',
+              'Hello there, we are the best Decentralised Hedgings Protocol on Linea, a fast and green positive Ethereum compatible chain below are the considerations why we are better than our competitors.',
               style: TextStyle(color: Colors.grey, fontSize: 14),
             ),
           ],
@@ -461,7 +461,7 @@ class HomePageWidget extends StatelessWidget {
                 color: Color.fromARGB(255, 6, 26, 61),
                 child: Center(
                   child: Text.rich(TextSpan(
-                      text: 'Oniduro ',
+                      text: 'Padi ',
                       style: Theme.of(context)
                           .textTheme
                           .displayLarge!

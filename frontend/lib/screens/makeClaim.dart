@@ -267,9 +267,7 @@ class _SearchPageState extends State<SearchPage> {
                                                       for (int i = 0;
                                                           i < foundUsers.length;
                                                           i++) {
-                                                        print('This is i:  $i');
-                                                        print(
-                                                            foundUsers.length);
+                                                  
                                                         if (fullList[index]
                                                                 .keyId ==
                                                             foundUsers[i]

@@ -76,7 +76,7 @@ class _PortfolioState extends State<Portfolio> {
                       height: 18,
                     ),
                     TextView(
-                        text: 'Amount in A-CELO eg: 20',
+                        text: 'Amount in ETH eg: 0.20',
                         controller: widget.insureAmount),
                     TextView(
                         text: 'Name of portfolio',
@@ -202,7 +202,7 @@ class _PortfolioState extends State<Portfolio> {
                             width: 33,
                           ),
                           Text(
-                            'Oniduro - Portfolios Dashboard',
+                            'Padi - Portfolios Dashboard',
                             style: Theme.of(context)
                                 .textTheme
                                 .displayMedium!

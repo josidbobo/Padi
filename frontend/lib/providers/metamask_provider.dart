@@ -3,9 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:walletconnect_qrcode_modal_dart/walletconnect_qrcode_modal_dart.dart';
 import 'package:walletconnect_dart/walletconnect_dart.dart';
 import 'package:flutter_web3/wallet_connect.dart' as a;
+import './api.dart';
 
 class MetaMaskProvider with ChangeNotifier {
-  static const operatingChain = 44787;
+  static const operatingChain = 59140;
 
   String currentAddress = "";
   static String curentAddress = '';
@@ -46,13 +47,13 @@ class MetaMaskProvider with ChangeNotifier {
 
   Future switchChain() async {
     if (currentChain != operatingChain) {
-      await ethereum!.walletSwitchChain(44787, () async {
+      await ethereum!.walletSwitchChain(59140, () async {
         await ethereum!.walletAddChain(
-          chainId: 44787,
-          chainName: 'Celo Alfajores Testnet',
+          chainId: 59140,
+          chainName: 'Linea Goerli Testnet',
           nativeCurrency: CurrencyParams(
-              name: 'Celo Alfajores Testnet', symbol: 'A-CELO', decimals: 18),
-          rpcUrls: ['https://alfajores-forno.celo-testnet.org'],
+              name: 'Linea Goerli Testnet', symbol: 'ETH', decimals: 18),
+          rpcUrls: ['https://linea-goerli.infura.io/v3/${API_KEY}'],
         );
       });
       connect();
@@ -94,9 +95,9 @@ class MetaMaskProvider with ChangeNotifier {
     );
 
     final wc = a.WalletConnectProvider.fromRpc(
-      {71: 'https://evmtestnet.confluxrpc.com'},
-      chainId: 71,
-      network: 'Conflux espace Testnet',
+      {59140: 'https://evmtestnet.confluxrpc.com'},
+      chainId: 59140,
+      network: 'Linea Goerli Testnet',
     );
     // Subscribe to events
     qrCodeModal.registerListeners(
@@ -114,7 +115,7 @@ class MetaMaskProvider with ChangeNotifier {
         });
 
     // Create QR code modal and connect to a wallet
-    await qrCodeModal.connect(context, chainId: 71);
+    await qrCodeModal.connect(context, chainId: 59140);
     web3 = Web3Provider.fromWalletConnect(wc);
     isWC = true;
     notifyListeners();

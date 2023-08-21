@@ -6,7 +6,7 @@ module.exports = {
   solidity: "0.8.9",
   networks: {
 		goerli: {
-			url: 'https://linea-goerli.infura.io/v3/$process.env.API_KEY',
+			url: 'https://linea-goerli.infura.io/v3/${process.env.API_KEY}',
 			accounts: [process.env.PRIVATE_KEY],
 		},
   }

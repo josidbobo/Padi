@@ -1,4 +1,4 @@
-# insurance_dapp
+# Defi_dapp
 
 A new Flutter project.
 

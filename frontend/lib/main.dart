@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Oniduro.io',
+        title: 'Padi.io',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
           canvasColor: Colors.grey[100],
@@ -52,7 +52,7 @@ class MyApp extends StatelessWidget {
         //home: const MyHomePage(title: 'Egbon Adugbo Insurance Ltd'),
         initialRoute: '/home',
         routes: {
-          '/home': (context) => const MyHomePage(title: 'SureBlocks Protocol'),
+          '/home': (context) => const MyHomePage(title: 'Padi Protocol'),
           '/portfolio': (context) => Portfolio(),
           '/makeClaims': (context) => const SearchPage(),
         });
@@ -128,7 +128,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         !provider.isOperatingChain) {
                        provider.switchChain();
                       text =
-                          "Wrong Chain ${context.watch<MetaMaskProvider>().currentChain}. Please connect to Alfajores Celo Testnet 44787!";
+                          "Wrong Chain ${context.watch<MetaMaskProvider>().currentChain}. Please connect to Linea Goerli Testnet 59140!";
                       return Center(
                           child: Text(
                         text,

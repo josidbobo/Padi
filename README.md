@@ -4,6 +4,7 @@ Defi Hedgings and Multipurpose savings protocol. It is a decentralised financial
 
 # Live Url
 https://padiio.netlify.app
+web folder hosted on IPFS via Infura: https://ipfs.io/ipfs/Qmaw1FtNdpueqPTK7i5xBpr74oJKFki3FkwU6rcw7yhkpT/
 
 # Verified Contract
 https://goerli.lineascan.build/address/0x9C46B0B4c9C5bc05E1D5FEd021f28147C4f3f8C9#code

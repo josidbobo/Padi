@@ -1,10 +1,15 @@
 # PADI
 
-Defi Hedgings and Multipurpose savings protocol
+Defi Hedgings and Multipurpose savings protocol. It is a decentralised financial solution for automated hedgings, insurance and savings and various other utilities. 
+
+# Live Url
+https://padiio.netlify.app
 
 # Verified Contract
 https://goerli.lineascan.build/address/0x9C46B0B4c9C5bc05E1D5FEd021f28147C4f3f8C9#code
 
+# Linea Network
+Linea Goerli
 
 # How to SetUp - Frontend
 

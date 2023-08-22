@@ -10,7 +10,7 @@ web folder hosted on IPFS via Infura: https://ipfs.io/ipfs/Qmaw1FtNdpueqPTK7i5xB
 https://goerli.lineascan.build/address/0x9C46B0B4c9C5bc05E1D5FEd021f28147C4f3f8C9#code
 
 # Linea Network
-Linea Goerli
+Linea Goerli - Infura used for deploying my contracts
 
 # How to SetUp - Frontend
 

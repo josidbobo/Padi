@@ -251,7 +251,7 @@ class InsuranceProvider extends ChangeNotifier {
     loading = true;
     notifyListeners();
     final identity = BigInt.from(num.parse(id.toString()));
-    final amout = BigInt.from(num.parse(amount.toString()));
+    final amout = BigInt.from(num.parse(EthUtils.parseEther(amount).toString()));
     print(identity);
     try {
        await contract!

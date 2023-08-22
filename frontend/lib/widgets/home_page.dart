@@ -86,7 +86,7 @@ class HomePageWidget extends StatelessWidget {
                     color: Colors.black87,
                   ),
             ),
-            const SizedBox(width: 676),
+            const SizedBox(width: 696),
             const Text('Home'),
             const SizedBox(width: 22),
             const Text('Partners'),

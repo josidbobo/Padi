@@ -209,7 +209,7 @@ class HomePageWidget extends StatelessWidget {
                               style: Theme.of(context).textTheme.displayMedium!.copyWith(color: Colors.white70, fontSize: 21)),
                           TextSpan(
                               text:
-                                  'you know that Oniduro is protecting you and/or your loved ones against inflation and loss by ',
+                                  'you know that Padi is protecting you and/or your loved ones against inflation and loss by ',
                               style: Theme.of(context).textTheme.displayMedium!.copyWith(color: Colors.white70, fontSize: 21)),
                           TextSpan(
                               text:

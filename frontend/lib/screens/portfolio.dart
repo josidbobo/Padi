@@ -129,7 +129,7 @@ class _PortfolioState extends State<Portfolio> {
                               if (mounted) {
                                 Navigator.of(context).pop();
                                 showToast(context, true,
-                                    "Successfully created portfolio");
+                                    "Successfully sent portfolio transaction");
                                 disppose();
                               }
                             } catch (e) {
